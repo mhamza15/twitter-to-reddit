@@ -37,6 +37,7 @@ while (True):
     subreddit.submit(title=html.unescape(removeURL(statuses[0].text)), 
                      url="https://twitter.com/SCREEN_NAME/status/" + str(statuses[0].id), 
                      send_replies=False)
+    sleep(60)
     statuses = twitterApi.GetUserTimeline(screen_name="SCREEN_NAME",
                                           count=1,
                                           exclude_replies=True,
