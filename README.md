@@ -1,2 +1,2 @@
-# twitterToRedditBot
-Simple bot that monitors a specified Twitter account and waits for any new Tweets, then posts them to Reddit. All fields are left blank and can be tweaked for any Twitter account and any subreddit.
+# twitter-to-reddit
+Simple script to monitor specified Twitter account and post to specified subreddit. Just create a .env file locally or use the template and include all necessary authentication.  
